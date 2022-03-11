@@ -13,10 +13,8 @@
     margin-top: 40px;
 }
 .services {
+    margin-top: 30px;
     background-image: url(../images/s_image.jpg);
     text-align: center;
     color: white;
-}
-.services h2 {
-    margin-top: 40px;
 }
