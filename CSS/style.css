@@ -8,3 +8,7 @@
     background-image: url(../images/h_img.jpg);
     background-size: cover;
 }
+.about {
+    text-align: center;
+    margin-top: 40px;
+}
