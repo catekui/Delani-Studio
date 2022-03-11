@@ -18,3 +18,9 @@
     text-align: center;
     color: white;
 }
+/* whatwedo class */
+.whatwedo {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+}
