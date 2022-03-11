@@ -12,3 +12,11 @@
     text-align: center;
     margin-top: 40px;
 }
+.services {
+    background-image: url(../images/s_image.jpg);
+    text-align: center;
+    color: white;
+}
+.services h2 {
+    margin-top: 40px;
+}
