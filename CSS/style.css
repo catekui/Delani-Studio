@@ -7,6 +7,14 @@
 .container {
     background-image: url(../images/h_img.jpg);
     background-size: cover;
+    text-align: center;
+    color: white;
+    height: 600px;
+    width: 100%;
+
+}
+.firstpage {
+    margin-top: 300px;
 }
 .about {
     text-align: center;
@@ -19,8 +27,27 @@
     color: white;
 }
 /* whatwedo class */
-.whatwedo {
+.whatwe {
     margin-left: 60px;
     display: flex;
     flex-direction: row;
+
+}
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+/* class icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    /* margin: 5px 5px 5px; */
+    
+}
+.fa-twitter {
+    background-color: #55ACEE;
 }
