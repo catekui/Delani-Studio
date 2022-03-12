@@ -36,10 +36,15 @@
 }
 .services {
     background-image: url(../images/s_image.jpg); 
-    height: 40vh;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .para {
-    margin-top: 20px;
+    margin-top: 60px;
+}
+.para1 {
+    margin-bottom: 60px;
 }
 
 #design1 {
