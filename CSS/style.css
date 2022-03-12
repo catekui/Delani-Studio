@@ -5,6 +5,17 @@
     /* background-color: blue; */
 }
 .container-fluid {
+    /* background-image: url(../images/h_img.jpg); */
+    /* background-size: cover;
+    text-align: center;
+    color: white;
+    height: 500px;
+    background-repeat: no-repeat;
+    position: relative; */
+  
+}
+
+.firstpage {
     background-image: url(../images/h_img.jpg);
     background-size: cover;
     text-align: center;
@@ -14,9 +25,6 @@
     position: relative;
   
 }
-/* .firstpage {
-    margin-top: 300px;
-} */
 .about {
     text-align: center;
     margin-top: 40px;
@@ -29,21 +37,28 @@
 }
 /* whatwedo class */
 .whatwedo {
-    margin-left: 60px;
-    display: flex;
-    flex-direction: row;
-    margin-top: 150px;
+    /* margin-left: 60px; */
+    /* display: flex;
+    flex-direction: row; */
+    /* margin-top: 150px; */
     text-align: center;
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
 }
 .whatwedo h2 {
     text-align: center;
 }
+/* design section */
 .design {
-    margin-right: 30px;
+    margin-right: 50px;
 }
-.design2 {
-    margin-left: 30px;
+#design {
+    margin-left: 100px;
+}
+#product {
+    margin-left: 60px;
+}
+.info {
+    display: none;
 }
 /* portfolio section */
 .PORT {
