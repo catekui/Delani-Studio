@@ -35,33 +35,13 @@
     margin-top: 40px;
 }
 .services {
-    margin-top: 30px;
-    background-image: url(../images/s_image.jpg);
-    text-align: center;
-    color: white;
+    background-image: url(../images/s_image.jpg); 
+    height: 40vh;
 }
-/* whatwedo class */
-/* .whatwedo { */
-    /* margin-left: 60px; */
-    /* display: flex;
-    flex-direction: row; */
-    /* margin-top: 150px; */
-    /* text-align: center; */
-    /* margin-bottom: 70px; */
-/* } */
-/* .whatwedo h2 {
-    text-align: center;
-} */
-/* design section */
-/* .design {
-    margin-right: 50px;
+.para {
+    margin-top: 20px;
 }
-#design {
-    margin-left: 100px;
-}
-#product {
-    margin-left: 60px;
-} */
+
 #design1 {
     display: none;
 }
