@@ -2,19 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: blue; */
 }
-.container-fluid {
-    /* background-image: url(../images/h_img.jpg); */
-    /* background-size: cover;
-    text-align: center;
-    color: white;
-    height: 500px;
-    background-repeat: no-repeat;
-    position: relative; */
-  
-}
-
 .firstpage {
     background-image: url("../images/h_img.jpg");
     background-size: cover;
@@ -22,13 +10,10 @@
     text-align: center;
     color: white;
     height: 100vh;
-    background-repeat: no-repeat;
-   
+    background-repeat: no-repeat; 
 }
-
 .logo {
      margin-top: 250px;
-  
 }
 /* about section */
 .us {
@@ -60,12 +45,16 @@
 #design3 {
     display: none;
 }
-/* portfolio section */
-.PORT {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-
+/* portfolio */
+.port img {
+    height: 270px;
+    width: 250px;
+}
+/* contact */
+.contact {
+    background-image: url("../images/c_image.jpg");
+    height: 70vh;
+    background-size: cover;
 }
 /* class icons */
 .fa {
@@ -74,8 +63,7 @@
     width: 50px;
     text-align: center;
     text-decoration: none;
-    /* margin: 5px 5px 5px; */
-    
+    /* margin: 5px 5px 5px; */   
 }
 .fa-twitter {
     background-color: #55ACEE;

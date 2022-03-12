@@ -11,4 +11,5 @@ $(document).ready(function(){
         $("#hide3").slideToggle();
         $("#design3").slideToggle();
     })
+    $("")
 });
