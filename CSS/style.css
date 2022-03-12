@@ -58,9 +58,107 @@
     transform: translate(-20%, -20%);
     position: absolute;
     height: 240px;
-    width: 80%;
+    width: 220px;
     font-weight: 700;
-    /* display: none; */
+    top: 30%;
+    left: 30%;
+    right: 20%;
+}
+#project2 {
+    color: white;
+    border: 3px solid white;
+    background-color: transparent;
+    -ms-transform: translate(-20%, -20%);
+    transform: translate(-20%, -20%);
+    position: absolute;
+    height: 240px;
+    width: 220px;
+    font-weight: 700;
+    top: 30%;
+    left: 30%;
+    right: 20%;
+
+}
+#project3 {
+    color: white;
+    border: 3px solid white;
+    background-color: transparent;
+    -ms-transform: translate(-20%, -20%);
+    transform: translate(-20%, -20%);
+    position: absolute;
+    height: 240px;
+    width: 220px;
+    font-weight: 700;
+    top: 30%;
+    left: 30%;
+    right: 20%;
+}
+#project4 {
+    color: white;
+    border: 3px solid white;
+    background-color: transparent;
+    -ms-transform: translate(-20%, -20%);
+    transform: translate(-20%, -20%);
+    position: absolute;
+    height: 240px;
+    width: 220px;
+    font-weight: 700;
+    top: 30%;
+    left: 30%;
+    right: 20%;
+}
+#project5 {
+    color: white;
+    border: 3px solid white;
+    background-color: transparent;
+    -ms-transform: translate(-20%, -20%);
+    transform: translate(-20%, -20%);
+    position: absolute;
+    height: 240px;
+    width: 220px;
+    font-weight: 700;
+    top: 30%;
+    left: 30%;
+    right: 20%;
+}
+#project6 {
+    color: white;
+    border: 3px solid white;
+    background-color: transparent;
+    -ms-transform: translate(-20%, -20%);
+    transform: translate(-20%, -20%);
+    position: absolute;
+    height: 240px;
+    width: 220px;
+    font-weight: 700;
+    top: 30%;
+    left: 30%;
+    right: 20%;
+}
+#project7 {
+    color: white;
+    border: 3px solid white;
+    background-color: transparent;
+    -ms-transform: translate(-20%, -20%);
+    transform: translate(-20%, -20%);
+    position: absolute;
+    height: 240px;
+    width: 220px;
+    font-weight: 700;
+    top: 30%;
+    left: 30%;
+    right: 20%;
+}
+#project8 {
+    color: white;
+    border: 3px solid white;
+    background-color: transparent;
+    -ms-transform: translate(-20%, -20%);
+    transform: translate(-20%, -20%);
+    position: absolute;
+    height: 240px;
+    width: 230px;
+    font-weight: 700;
     top: 30%;
     left: 30%;
     right: 20%;
