@@ -30,10 +30,14 @@
      margin-top: 250px;
   
 }
-.about {
-    text-align: center;
-    margin-top: 40px;
+/* about section */
+.us {
+    margin-top: 60px ;
 }
+.we {
+    margin-bottom: 40px;
+}
+/* services section */
 .services {
     background-image: url(../images/s_image.jpg); 
     height: 60vh;
@@ -46,7 +50,7 @@
 .para1 {
     margin-bottom: 60px;
 }
-
+/* what we do section */
 #design1 {
     display: none;
 }
