@@ -16,13 +16,18 @@
 }
 
 .firstpage {
-    background-image: url(../images/h_img.jpg);
+    background-image: url("../images/h_img.jpg");
     background-size: cover;
+    /* position: fixed; */
     text-align: center;
     color: white;
-    height: 500px;
+    height: 100vh;
     background-repeat: no-repeat;
-    position: relative;
+   
+}
+
+.logo {
+     margin-top: 250px;
   
 }
 .about {
@@ -36,19 +41,19 @@
     color: white;
 }
 /* whatwedo class */
-.whatwedo {
+/* .whatwedo { */
     /* margin-left: 60px; */
     /* display: flex;
     flex-direction: row; */
     /* margin-top: 150px; */
-    text-align: center;
+    /* text-align: center; */
     /* margin-bottom: 70px; */
-}
-.whatwedo h2 {
+/* } */
+/* .whatwedo h2 {
     text-align: center;
-}
+} */
 /* design section */
-.design {
+/* .design {
     margin-right: 50px;
 }
 #design {
@@ -56,8 +61,8 @@
 }
 #product {
     margin-left: 60px;
-}
-.info {
+} */
+#design1 {
     display: none;
 }
 /* portfolio section */
