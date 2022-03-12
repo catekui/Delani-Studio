@@ -65,6 +65,12 @@
 #design1 {
     display: none;
 }
+#design2 {
+    display: none;
+}
+#design3 {
+    display: none;
+}
 /* portfolio section */
 .PORT {
     display: flex;
