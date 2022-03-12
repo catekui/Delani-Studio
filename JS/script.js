@@ -11,5 +11,8 @@ $(document).ready(function(){
         $("#hide3").slideToggle();
         $("#design3").slideToggle();
     })
-    $("")
+    $('#project1').hide();
+    $('.port').hover(function(){
+        $(this).find('#project1').toggle(500);
+    });
 });
