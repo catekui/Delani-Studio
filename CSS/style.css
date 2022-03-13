@@ -175,6 +175,20 @@
     height: 100vh;
     background-size: cover;
 }
+textarea {
+    margin-left: 40px;
+    width: 1000px;
+    height: 350px;
+}
+button {
+    border-radius: 4px solid black;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    height: 40px;
+    width: 80px;
+    margin-top: 50px;
+}
 /* class icons */
 .icons {
     margin-left: 320px;
