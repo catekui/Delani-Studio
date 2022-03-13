@@ -27,7 +27,7 @@
                 <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNING IN A FUN ENVIRONMENT</p>
             </div>
             <div class="col-md-12 mt-4">
-                <img src="images/mouse_click.png" alt="" srcset="">
+                <a href="#about"><img src="images/mouse_click.png" alt="" srcset=""></a>
             </div>
 
         </div>
@@ -35,7 +35,7 @@
 
     <!-- about section -->
 
-    <div class="container-fluid about">
+    <div class="container-fluid about" id="about">
         <div class="row text-center text-black">
             <div class="col-md-12 us">
                 <h2>ABOUT US</h2>
@@ -162,17 +162,23 @@
     </div>
 
     <!-- contact us page -->
-    <div class="container-fluid contact text-center text-white">
-        <div id="contact">
-            <h2>CONTACT US</h2>
-
-            <input type="text" placeholder="Name...">
-            <input type="email" placeholder="Email...">
-            <div>
-                <textarea name="comment" placeholder="Your message here"></textarea>
+    <div class="container-fluid text-white contact">
+        <div class="row text-white ml-4">
+            <div class="col-md-12 contactus">
+                <h2>CONTACT US</h2>
             </div>
+            <form action="https://formspree.io/f/xayvbybr" method="post">
+                <div class="col-md-12">
+                    <input type="text" id="name" placeholder="Name" name="name"required>
+                    <input type="email" id="email" placeholder="Email" nam="email"required>
+                </div>
+                <div class="col-md-12">
+                    <textarea name="message" rows="9" id="message" placeholder="Your message here" required></textarea>
+                </div>
+                <input type="submit" value="Submit" id="button" onclick="check()">
+            </form>
         </div>
-        <input type="button" name="Submit" value="Submit" id="button" onclick="check()">
+       
 
     </div>
     <div class=" container-fluid mt-5 icons">

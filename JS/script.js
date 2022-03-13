@@ -43,7 +43,19 @@ $(document).ready(function(){
     $('.port').hover(function(){
         $(this).find('#project8').toggle(500);
     });
+    $('#button').click(function(){
+        const name = document.getElementById("name").value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById("message").value;
+        if (name == "" || email == ""|| message == ""){
+            alert("Please fill in the details");
+        } else {
+            alert("Thank you " + name + " for contacting us")
+        }
+    })
+
 });
-function check(){
-    alert("We have received your message. Thank you for reaching out to us")
-}
+
+
+
+

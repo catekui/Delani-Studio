@@ -9,7 +9,7 @@
     /* position: fixed; */
     text-align: center;
     color: white;
-    height: 100vh;
+    height: auto;
     background-repeat: no-repeat; 
 }
 .logo {
@@ -21,6 +21,10 @@
 .studio {
     margin-top: 40px;
 }
+/* .mouse {
+    margin-top: 250px;
+} */
+
 /* about section */
 .us {
     margin-top: 60px ;
@@ -31,7 +35,7 @@
 /* services section */
 .services {
     background-image: url(../images/s_image.jpg); 
-    height: 60vh;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -172,11 +176,13 @@
 /* contact */
 .contact {
     background-image: url("../images/c_image.jpg");
-    height: 100vh;
+    height: auto;
     background-size: cover;
+
 }
-#contact {
+.contactus {
     margin-top: 100px;
+    text-align: center;
 }
 input {
     height: 40px;
@@ -184,12 +190,15 @@ input {
     border-radius: 4px solid white;
     background-color: transparent;
 }
-textarea {
-    margin-top: 40px;
+#message{
+    margin-top: 20px;
     background-color: transparent;
     width: 1000px;
     height: 350px;
     color: white;
+}
+#email {
+    margin-left: 30px;
 }
 #button {
     border-radius: 4px solid black;
@@ -199,6 +208,13 @@ textarea {
     height: 40px;
     width: 80px;
     margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+
+}
+::placeholder {
+    color: white;
 }
 /* class icons */
 .icons {
