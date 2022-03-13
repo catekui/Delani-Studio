@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 .firstpage {
     background-image: url("../images/h_img.jpg");
@@ -21,9 +23,7 @@
 .studio {
     margin-top: 40px;
 }
-/* .mouse {
-    margin-top: 250px;
-} */
+
 
 /* about section */
 .us {
@@ -218,5 +218,5 @@ input {
 }
 /* class icons */
 .icons {
-    margin-left: 320px;
+    text-align: center;
 }
