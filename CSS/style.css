@@ -13,7 +13,10 @@
     background-repeat: no-repeat; 
 }
 .logo {
-     margin-top: 250px;
+     margin-top: 200px;
+}
+.firstpage h2 {
+    margin-top: 50px;
 }
 .studio {
     margin-top: 40px;
