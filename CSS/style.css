@@ -175,10 +175,21 @@
     height: 100vh;
     background-size: cover;
 }
+#contact {
+    margin-top: 100px;
+}
+input {
+    height: 40px;
+    width: 500px;
+    border-radius: 4px;
+    background-color: transparent;
+}
 textarea {
-    margin-left: 40px;
+    margin-top: 40px;
+    background-color: transparent;
     width: 1000px;
     height: 350px;
+    color: white;
 }
 button {
     border-radius: 4px solid black;
@@ -187,7 +198,7 @@ button {
     font-size: large;
     height: 40px;
     width: 80px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 /* class icons */
 .icons {
