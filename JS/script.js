@@ -44,3 +44,6 @@ $(document).ready(function(){
         $(this).find('#project8').toggle(500);
     });
 });
+function check(){
+    alert("We have received your message. Thank you for reaching out to us")
+}
