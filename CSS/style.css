@@ -15,6 +15,9 @@
 .logo {
      margin-top: 250px;
 }
+.studio {
+    margin-top: 40px;
+}
 /* about section */
 .us {
     margin-top: 60px ;
@@ -170,14 +173,6 @@
     background-size: cover;
 }
 /* class icons */
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    /* margin: 5px 5px 5px; */   
-}
-.fa-twitter {
-    background-color: #55ACEE;
+.icons {
+    margin-left: 320px;
 }
